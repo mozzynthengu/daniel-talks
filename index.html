@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Gospel Talks</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <h1>My Gospel Talks</h1>
+  <p>A collection of talks and messages</p>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">All Talks</a></li>
+      <li><a href="#">Topics</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- Search Box -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search talks by title, speaker, or keyword...">
+  </div>
+
+  <!-- Talks -->
+  <div class="talk" data-search="faith jesus christ john doe trust savior">
+    <h2>Faith in Jesus Christ</h2>
+    <div class="meta">By John Doe • April 2024</div>
+    <p>A message about trusting the Savior in all circumstances.</p>
+    <a href="faith.html">Read Full Talk →</a>
+  </div>
+
+  <div class="talk" data-search="prayer power jane smith communication god">
+    <h2>The Power of Prayer</h2>
+    <div class="meta">By Jane Smith • October 2023</div>
+    <p>This talk discusses how prayer strengthens our relationship with God.</p>
+    <a href="prayer.html">Read Full Talk →</a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© 2026 My Gospel Talks</p>
+</footer>
+
+<!-- Search Script -->
+<script>
+  const searchInput = document.getElementById("searchInput");
+  const talks = document.querySelectorAll(".talk");
+
+  searchInput.addEventListener("keyup", function () {
+    const value = searchInput.value.toLowerCase();
+
+    talks.forEach(function (talk) {
+      const searchText = talk.getAttribute("data-search");
+
+      if (searchText.includes(value)) {
+        talk.style.display = "block";
+      } else {
+        talk.style.display = "none";
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
