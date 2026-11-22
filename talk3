@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Christ-Centered Christmas</title>
+<style>
+:root{
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  --bg:#faf7f0; --fg:#2a2622; --muted:#7a6f63; --accent:#8a5a1f; --card:#f1eadb; --line:#ddd2bd;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#1c1a17; --fg:#ece6da; --muted:#a99d8d; --accent:#e0b46a; --card:#27231e; --line:#3b342b; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#1c1a17; --fg:#ece6da; --muted:#a99d8d; --accent:#e0b46a; --card:#27231e; --line:#3b342b; color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:Georgia,"Times New Roman",serif;line-height:1.7;font-size:var(--fs,20px)}
+main{max-width:720px;margin:0 auto;padding:24px 20px 80px}
+header{text-align:center;padding:24px 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px}
+h1{font-size:2em;margin:.2em 0;color:var(--accent);line-height:1.2}
+.sub{color:var(--muted);font-style:italic;margin:0 0 16px}
+.tools{display:flex;gap:8px;justify-content:center;margin:12px 0 16px;font-family:system-ui,sans-serif}
+.tools button{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:8px;padding:6px 14px;font-size:14px;cursor:pointer}
+h2{font-size:1.3em;color:var(--accent);margin:2em 0 .2em}
+.time{font-family:system-ui,sans-serif;font-size:.7em;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 .8em}
+p{margin:0 0 1em}
+blockquote{margin:1.2em 0;padding:.6em 1em;border-left:3px solid var(--accent);background:var(--card);border-radius:0 8px 8px 0;font-style:italic}
+blockquote cite{display:block;font-style:normal;font-size:.8em;color:var(--muted);margin-top:.3em}
+.key{font-weight:bold;text-align:center;font-size:1.1em;margin:1.2em 0}
+.note{font-family:system-ui,sans-serif;font-size:.8em;background:var(--card);border:1px dashed var(--accent);border-radius:8px;padding:12px 14px;margin:1.2em 0;color:var(--muted)}
+.note b{color:var(--accent)}
+ul{padding-left:1.2em}li{margin-bottom:.6em}
+.amen{text-align:center;font-style:italic;margin-top:2em}
+.tips{font-family:system-ui,sans-serif;font-size:.75em;color:var(--muted);border-top:1px solid var(--line);margin-top:3em;padding-top:1em}
+@media print{.tools{display:none}body{background:#fff;color:#000;font-size:13pt}}
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>A Christ-Centered Christmas</h1>
+  <p class="sub">The birth, mission, and infinite love of our Saviour, Jesus Christ</p>
+  <div class="tools">
+    <button onclick="sz(-2)">A−</button>
+    <button onclick="sz(2)">A+</button>
+    <button onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark'">Light / Dark</button>
+  </div>
+</header>
+
+<h2>Opening</h2>
+<p class="time">About 1 minute</p>
+<p>Brothers and sisters, good morning. I am grateful to speak to you today about the Saviour, Jesus Christ.</p>
+<p>At this time of year, our homes are full of lights, music, gifts, and gatherings. These are good things. But I want to ask a simple question: when the lights are put away and the gifts are opened, what remains?</p>
+<p>I testify that what remains is Him. Christmas is not simply the celebration of the birth of a child in Bethlehem. It is the celebration of the coming of the Son of God, our Redeemer, who was born into the world so that we might have hope, forgiveness, salvation, and eternal life.</p>
+
+<h2>1. The Promised Messiah</h2>
+<p class="time">About 3 minutes</p>
+<p>Long before Bethlehem, prophets testified of His coming. Isaiah declared:</p>
+<blockquote>“For unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.”<cite>Isaiah 9:6</cite></blockquote>
+<p>This was no ordinary birth. It was the fulfilment of a promise made by a loving Heavenly Father to His children. For generations, God’s people looked forward to the One who would deliver them, heal them, and bring them back into God’s presence.</p>
+<p>Nephite prophets also saw it. King Benjamin taught that “the Lord Omnipotent who reigneth… shall come down from heaven among the children of men, and shall dwell in a tabernacle of clay” (Mosiah 3:5). Think about that. The God who created the heavens and the earth chose to dwell in a body like ours.</p>
+<p>And when the promise was fulfilled, it came in the humblest of circumstances. Luke tells us Mary “laid him in a manger; because there was no room for them in the inn” (Luke 2:7). The King of Kings was not born in a palace. He had no royal servants and no earthly riches.</p>
+<p>Yet the child in that manger was the Creator of the world, the Only Begotten Son of God in the flesh, and the Saviour of all mankind.</p>
+<p class="key">The world saw a baby. Heaven knew its Redeemer had arrived.</p>
+<p>The angel’s message to the shepherds was not only about a birth. It was about purpose:</p>
+<blockquote>“Fear not: for, behold, I bring you good tidings of great joy, which shall be to all people. For unto you is born this day… a Saviour, which is Christ the Lord.”<cite>Luke 2:10–11</cite></blockquote>
+<p>A Saviour. That is the word that matters.</p>
+
+<h2>2. Why Was Jesus Christ Born?</h2>
+<p class="time">About 3 minutes</p>
+<p>This may be the most important question we can ask at Christmas. Why did Heavenly Father send His Son?</p>
+<p>John 3:16 gives one of the most beautiful answers:</p>
+<blockquote>“For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.”<cite>John 3:16</cite></blockquote>
+<p>Jesus Christ was born because of the love of our Heavenly Father. And He came with a divine mission to do what none of us could do for ourselves. He came to overcome sin and death. He came to make repentance possible. He came to heal broken hearts, strengthen the weak, comfort those who mourn, and offer hope to those who feel lost. Ultimately, He came to open the way for us to return and live with our Heavenly Father.</p>
+<p>The manger and the cross are inseparably connected. The baby born in Bethlehem was the Saviour who would one day willingly lay down His life for us. When we see Christmas this way, we understand that it is about His whole mission and the infinite love behind it.</p>
+
+<h2>3. The Miracle of His Atonement</h2>
+<p class="time">About 3 minutes</p>
+<p>So why does His birth matter so much? Because of what He did after.</p>
+<p>Alma taught that Jesus would be born “at Jerusalem… the land of our forefathers, she being a virgin, a precious and chosen vessel,” and that “he shall go forth, suffering pains and afflictions and temptations of every kind; and this that the word might be fulfilled which saith he will take upon him the pains and the sicknesses of his people” (Alma 7:10–11).</p>
+<p>In Gethsemane, He took upon Himself the weight of every sin, sorrow, and pain. King Benjamin said His anguish was so great that “blood cometh from every pore” (Mosiah 3:7). On Calvary, He gave His life. And on the third morning, He rose from the tomb, breaking the bands of death for all of us.</p>
+<p>Without Gethsemane, Calvary, and the empty tomb, Bethlehem would be a beautiful story with no power to save. Because of them, it is the beginning of our hope.</p>
+<p>Alma then gives one of the most tender reasons for His suffering:</p>
+<blockquote>“…that he may know according to the flesh how to succor his people according to their infirmities.”<cite>Alma 7:12</cite></blockquote>
+<p>He knows. He knows your loneliness, your exhaustion, your grief, and your struggles with temptation and sin. He did not only die for us. He chose to understand us, personally and perfectly.</p>
+
+<h2>4. The Saviour of the World Is My Saviour</h2>
+<p class="time">About 3 minutes</p>
+<p>It is possible to hear all of this and still hold it at a distance, as something true for the world but not quite for me.</p>
+<p>The shepherds did not stay at a distance. They said, “Let us now go even unto Bethlehem, and see this thing which is come to pass” (Luke 2:15). They went, they found Him, and they told others.</p>
+<p class="key">The Saviour of the world is also my Saviour.</p>
+<div class="note"><b>Your personal experience (1–2 minutes):</b> Share a moment when you felt the Saviour’s help, forgiveness, or comfort, such as a hard season, a prayer answered, or a time you felt carried. Keep it simple and sincere.</div>
+<p>Some of you may be carrying heavy things this Christmas: a loss, a broken relationship, financial pressure, guilt, or a quiet sense that you are not enough. To you I say, He came for you. Not for an idea of you, and not for the crowd, but for you.</p>
+<p class="key">The greatest miracle of Christmas is not simply that Jesus Christ came into the world, but that He came into the world for each one of us.</p>
+
+<h2>5. Keeping Christ at the Centre</h2>
+<p class="time">About 2 minutes</p>
+<p>If Christ came for each of us, how do we respond, not only in December but all year?</p>
+<p>Nephi gives us a pattern:</p>
+<blockquote>“We talk of Christ, we rejoice in Christ, we preach of Christ, we prophesy of Christ… that our children may know to what source they may look for a remission of their sins.”<cite>2 Nephi 25:26</cite></blockquote>
+<p>Let me suggest three simple ways:</p>
+<ul>
+  <li><b>Talk of Christ.</b> Make Him part of our conversations at home, not only at church.</li>
+  <li><b>Follow Christ.</b> Let His birth deepen our discipleship through repentance, kindness, service, and forgiveness. The gift He most wants from us is a changed heart.</li>
+  <li><b>Remember Christ.</b> Each week, as we partake of the sacrament, we remember His body and His blood, and we renew our covenant to “always remember him” (Moroni 4:3).</li>
+</ul>
+<p>A Christ-centred Christmas is simple. It is one where, at the end of the day, our hearts are turned to Him.</p>
+
+<h2>Testimony and Closing</h2>
+<p class="time">About 1 minute</p>
+<p>I testify that Jesus Christ is the Son of God. He was born in Bethlehem, He lived a perfect life, He suffered in Gethsemane, He died on the cross, and He rose again. He lives today, and He leads His Church through a living prophet.</p>
+<p>He loves us. He knows us. And because of Him, we can have eternal hope.</p>
+<p>May we not only remember that Christ was born, but remember that He lives, and carry that into every day of the year.</p>
+<p class="amen">I say these things in the sacred name of Jesus Christ, amen.</p>
+
+<div class="tips">
+  <b>Notes:</b> If you run long, shorten Section 5 first, then trim Section 1. Check all scripture quotes against your own copy before speaking. A hymn such as “Joy to the World” or “O Little Town of Bethlehem” would fit well to open or close.
+</div>
+</main>
+<script>
+var cur=20;
+function sz(d){cur=Math.max(14,Math.min(34,cur+d));document.body.style.setProperty('--fs',cur+'px');}
+</script>
+</body>
+</html>
